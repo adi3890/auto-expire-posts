@@ -1,0 +1,12 @@
+{
+    "name": "example/auto-expire-posts",
+    "description": "Auto-Expire Posts WordPress plugin",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "wp-phpunit/wp-phpunit": "^5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

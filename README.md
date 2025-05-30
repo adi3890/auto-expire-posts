@@ -26,3 +26,17 @@ A WordPress plugin that automatically changes posts to draft status when they re
 ## Requirements
 
 - WordPress 5.0 or higher
+
+## Running Tests
+
+1. Install the development dependencies:
+
+```bash
+composer install
+```
+
+2. Run the test suite with:
+
+```bash
+composer test
+```
